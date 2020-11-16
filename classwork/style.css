@@ -1,28 +1,35 @@
 #objective{
-    line-height: 25px; 
-    font-size: 16px;
+    line-height: 20px; 
+    font-size: 15px;
 }
 
 .Title{
     background-color: rgb(72, 228, 228);
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 23px;
+    font-size: 25px;
     color: black;
     padding: 3px;
+    margin: 0px;
 }
 
 
 .RHS{
-    width: 740px;
-    margin-left: 10px;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: medium;
+    padding-left: 5px;
+    width: 490px;
+    
 }
 
 
 .LHS{
-    width: 320px;
     background-color: #28bcf1;
+    width:230px;
+    line-height: 20px;
+    font-size: large;
 
 }
 
@@ -30,4 +37,13 @@ a{
     font-style: italic;
 }
 
+.Resume{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 730px;
+}
 
+
+.Contact{
+    font-size: x-large;
+}

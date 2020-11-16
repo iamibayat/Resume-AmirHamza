@@ -1,1 +1,23 @@
-/* Your responsive CSS styles go here */
+
+@media screen and (max-width:500px)
+{
+    .RHS{
+        background-color: rgba(15, 128, 173, 0.76);
+    }
+
+}
+
+@media screen and (min-width:1000px)
+{
+        .Title{
+        background-color: rgba(187, 192, 231, 0.966);
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px)
+{
+    .Title{
+        color: rgb(25, 19, 182);
+    }
+
+}
