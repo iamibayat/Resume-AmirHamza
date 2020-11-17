@@ -1,13 +1,12 @@
 
-@media screen and (max-width:500px)
+@media (max-width:500px)
 {
     .RHS{
         background-color: rgba(15, 128, 173, 0.76);
     }
-
 }
 
-@media screen and (min-width:1000px)
+@media (min-width:1000px)
 {
         .Title{
         background-color: rgba(187, 192, 231, 0.966);
@@ -19,5 +18,4 @@
     .Title{
         color: rgb(25, 19, 182);
     }
-
 }
